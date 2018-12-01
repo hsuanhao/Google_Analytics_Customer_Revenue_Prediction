@@ -21,3 +21,7 @@ Predict how much GStore customers will spend
 ## Data Exploration, Clean, and Feature Engineering
 
 At first, I explore data, clean data, and study relations between features and target values as shown in [Data_Clean_Explore.ipynb](https://github.com/hsuanhao/Google_Analytics_Customer_Revenue_Prediction/blob/master/Data_Clean_Explore.ipynb). I found that most of features have weak relations with target values, `transactionRevenue`, except for `date`. But those features, like `hits`, `pageviews`, `isMobile`, `weekend`, `Referral`, `Americas`, and `US`, have relations to whether customers will purchase products or not in GStore when they visited the store. Note that `hits` and `pageviews` are stored in json format in `total` attribute, `isMobile` is stored in json format in `device`. Since customers visited the store via `Referral` channel in `channelGrouping` have higher purchasing rate, I generated this feature to denote whether or not customers visits store vial Referral channel. Besides, customers from `Americas` continent and `US` country have higher purchasing rate. Therefore, I built a model to classify whether customers will buy products or not first. For those who won't buy products, the transaction revenue must be zero. Then I built a model for time series data to predict the transaction revenues who will buy products in store since transaction revenue is related to date.
+
+## Model Construction and Evaluation
+
+It's ongoing.
