@@ -18,7 +18,7 @@ Predict how much GStore customers will spend
 - **hits** - This row and nested fields are populated for any and all types of hits. Provides a record of all page visits. (new in version 2 data set)
 - **customDimensions** - This section contains any user-level or session-level custom dimensions that are set for a session. This is a repeated field and has an entry for each dimension that is set. (new in version 2 data set)
 
-## Data Exploration, Clean, and Feature Engineering
+## Exploratory Data Analysis (EDA)
 
 At first, I explore data, clean data, and study relations between features and target values as shown in [Data_Clean_Explore.ipynb](https://github.com/hsuanhao/Google_Analytics_Customer_Revenue_Prediction/blob/master/Data_Clean_Explore.ipynb). 
 
