@@ -20,7 +20,7 @@ Predict how much GStore customers will spend
 
 ## Exploratory Data Analysis (EDA)
 
-At first, I explore data, clean data, and study relations between features and target values as shown in [Data_Clean_Explore.ipynb](https://github.com/hsuanhao/Google_Analytics_Customer_Revenue_Prediction/blob/master/Data_Clean_Explore.ipynb). 
+At first, I explore data, clean data, and study relations between features and target values as shown in [Data_Clean_Explore.ipynb](https://github.com/hsuanhao/Google_Analytics_Customer_Revenue_Prediction/blob/master/Data_Clean_Explore.ipynb). In the end, I prepared the data for model training.
 
 ## Model Construction and Evaluation
 
