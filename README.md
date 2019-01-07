@@ -24,7 +24,7 @@ At first, I explore data, clean data, and study relations between features and t
 
 ## Model Construction and Evaluation
 
-I constructed training model in two steps. First, I created a classifier to classify whether customers will buy products or not per visit in GStore. In this stage, I implemented **Random Forest** for this classification. For those who won't purcase products in store, the transaction revenue is 0 for sure. Hence, the first step is to classify customers whether purchase or not per visit. Then for those who purchase products, I will use **statistical models** or **RNN** for **time series** to predict the transaction revenue per visit. Note that I have examined that the transaction revenue per visit only depends on date.
+As shown in [Model_Train.ipynb](https://github.com/hsuanhao/Google_Analytics_Customer_Revenue_Prediction/blob/master/Model_Train.ipynb), I constructed training model in two steps. First, I created a classifier to classify whether customers will buy products or not per visit in GStore. In this stage, I implemented **Random Forest** for this classification. For those who won't purcase products in store, the transaction revenue is 0 for sure. Hence, the first step is to classify customers whether purchase or not per visit. Then for those who purchase products, I will use **statistical models** or **RNN** for **time series** to predict the transaction revenue per visit. Note that I have examined that the transaction revenue per visit only depends on date.
 
 PS. I'm still figuring out how to deal with time series via statistical models and RNN.
 
