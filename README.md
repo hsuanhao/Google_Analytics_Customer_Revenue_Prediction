@@ -24,8 +24,9 @@ At first, I explore data, clean data, and study relations between features and t
 
 ## Model Construction and Evaluation
 
-It's ongoing.
+I constructed training model in two steps. First, I created a classifier to classify whether customers will buy products or not per visit in GStore. In this stage, I implemented **Random Forest** for this classification. For those who won't purcase products in store, the transaction revenue is 0 for sure. Hence, the first step is to classify customers whether purchase or not per visit. Then for those who purchase products, I will use **statistical models** or **RNN** for **time series** to predict the transaction revenue per visit. Note that I have examined that the transaction revenue per visit only depends on date.
 
+PS. I'm still figuring out how to deal with time series via statistical models and RNN.
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Hsuan-Hao Fan</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
